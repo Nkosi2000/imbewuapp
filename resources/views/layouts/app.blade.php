@@ -14,12 +14,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&display=swap" rel="stylesheet">
 
     <!-- Vite assets (now includes Tailwind CSS and custom JS) -->
-    @vite(['resources/js/app.js'])
+    @vite(['resources/css/app.css','resources/js/app.js'])
 
     <!-- Custom per-page styles -->
     @stack('styles')
 </head>
-<body class="font-sans antialiased bg-white text-gray-900">
+<body class="font-sans antialiased bg-gray-950 text-gray-100">
 
 <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-green-600 text-white px-4 py-2 rounded-md z-50">
     Skip to main content
